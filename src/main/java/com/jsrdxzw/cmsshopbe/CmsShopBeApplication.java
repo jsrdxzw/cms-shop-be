@@ -3,6 +3,9 @@ package com.jsrdxzw.cmsshopbe;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+/**
+ * @author xuzhiwei
+ */
 @SpringBootApplication
 public class CmsShopBeApplication {
 
