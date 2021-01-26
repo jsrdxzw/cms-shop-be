@@ -14,7 +14,7 @@ public interface AdminService {
     /**
      * 获取结构化的权限信息
      *
-     * @return
+     * @return Map<Module, Permission>
      */
     Map<String, List<Permission>> getAllStructuralPermissions();
 

@@ -13,6 +13,7 @@ public interface PermissionService {
      * 获取所有的权限信息
      *
      * @return
+     * @param mount
      */
-    List<Permission> getAllPermissions();
+    List<Permission> getAllPermissions(Boolean mount);
 }

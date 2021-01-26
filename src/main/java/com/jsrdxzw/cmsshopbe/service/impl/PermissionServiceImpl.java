@@ -18,7 +18,7 @@ public class PermissionServiceImpl implements PermissionService {
     private PermissionRepository permissionRepository;
 
     @Override
-    public List<Permission> getAllPermissions() {
-        return permissionRepository.getAllByMount(false);
+    public List<Permission> getAllPermissions(Boolean mount) {
+        return permissionRepository.getAllByMount(mount);
     }
 }

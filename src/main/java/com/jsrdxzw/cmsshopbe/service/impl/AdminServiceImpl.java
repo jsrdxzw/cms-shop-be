@@ -23,7 +23,7 @@ public class AdminServiceImpl implements AdminService {
 
     @Override
     public Map<String, List<Permission>> getAllStructuralPermissions() {
-        List<Permission> allPermissions = permissionService.getAllPermissions();
+        List<Permission> allPermissions = permissionService.getAllPermissions(false);
         Map<String, List<Permission>> res = new HashMap<>();
         for (Permission permission : allPermissions) {
             if (res.containsKey(permission.getModule())) {
