@@ -1,7 +1,7 @@
 version: '3.1'
 services:
   db:
-    container_name: cms-shop-mysql
+    container_name: mall-shop-mysql
     image: mysql
     ports:
       - 3307:3306
